@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="stylesheet" href="style.css">
+  <title> Aim Training </title>
+</head>
+
+<body>
+  <div class="screen">
+    <h1>Aim Training</h1>
+    <a href="#" id="start">Start the game</a>
+  </div>
+
+  <div class="screen">
+    <h1>Choose the time</h1>
+    <ul class="time-list" id="time-list">
+      <li>
+        <button class="time-btn" data-time="1">1 sec</button>
+      </li>
+      <li>
+        <button class="time-btn" data-time="5">5 sec</button>
+      </li>
+      <li>
+        <button class="time-btn" data-time="10">10 sec</button>
+      </li>
+      <li>
+        <button class="time-btn" data-time="20">20 sec</button>
+      </li>
+      <li>
+        <button class="time-btn" data-time="30">30 sec</button>
+      </li>
+      <li>
+        <button class="time-btn" data-time="60">1 min.</button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="screen">
+    <h3><span id="time">00:00</span> left</h3>
+    <div class="board" id="board"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

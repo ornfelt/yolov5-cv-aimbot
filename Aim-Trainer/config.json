@@ -1,0 +1,52 @@
+{
+    "Colors": {
+        "Final_scoreboard_background_color": [
+            255,
+            255,
+            255
+        ],
+        "Scoreboard_color": [
+            255,
+            255,
+            255
+        ],
+        "Target_colors": [
+            [
+                255,
+                0,
+                0
+            ],
+            [
+                255,
+                255,
+                255
+            ]
+        ],
+        "Target_area_colors": [
+            [
+                128,
+                128,
+                128
+            ],
+            [
+                148,
+                148,
+                148
+            ]
+        ]
+    },
+    "Extra difficulty settings": {
+        "Lives": 5,
+        "Missing_shots_decreases_life": false
+    },
+    "Performance": {
+        "Frames_per_second": 60,
+        "Sounds_buffer": 64
+    },
+    "Targets": {
+        "Target_limit_per_second": null,
+        "Target_radius": 40,
+        "Targets_per_second": 1.8,
+        "Target_speed": 0.4
+    }
+}
