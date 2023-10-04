@@ -6,4 +6,4 @@ numpy==1.20.1
 keyboard==0.13.5
 PyDirectInput==1.0.4
 pywin32==227
-Pillow==8.4.0
+Pillow==10.0.1
