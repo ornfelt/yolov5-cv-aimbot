@@ -1,7 +1,7 @@
 PyAutoGUI==0.9.48
 mss==6.1.0
 pandas==1.2.4
-torch==1.9.1
+torch==1.13.1
 numpy==1.20.1
 keyboard==0.13.5
 PyDirectInput==1.0.4
